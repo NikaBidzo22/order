@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #E0E8FF;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: fit-content;
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+    padding-bottom: 48px;
+}
+
+.hero {
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    width: 450px;
+}
+
+.order {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+    margin-top: 45px;
+}
+
+.long {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    width: 354px;
+    margin-top: 17px;
+    margin-left: 48px;
+    margin-bottom: 20px;
+}
+
+.pay {
+    padding: 24px;
+    background: #F7F9FF;
+    border-radius: 11px;
+    width: fit-content;
+    margin-left: 48px;
+    display: flex;
+}
+
+.music {
+    height: 48px;
+    width: 48px;
+    margin-right: 20px;
+}
+
+.text {
+    width: fit-content;
+    height: fit-content;
+}
+
+.plan {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+
+.year {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+    margin-top: 6px;
+}
+
+.line {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    margin-top: 16px;
+    margin-left: 94px;
+    cursor: pointer;
+}
+
+.line:hover {
+    color: #766CF1;
+    text-decoration: none;
+}
+
+.blue {
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    padding: 15px 102px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 48px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.proceed {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.blue:hover {
+    background: #766CF1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+}
+
+.cancel {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    margin-top: 32px;
+    margin-left: 176px;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    color: #1F2E55;
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+        height: 160px;
+        width: 327px;
+    }
+    .order {
+        font-size: 22px;
+        line-height: 29px;
+        margin-left: 32px;
+        width: 263px;
+    } 
+    .long {
+        font-size: 15px;
+        line-height: 25px;
+        width: 263px;
+        margin-left: 32px;
+    }
+    .pay {
+        padding: 16px;
+        margin-left: 24px;
+    }
+    .plan {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .year {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .line {
+        margin-left: 50px;
+    }
+    .blue {
+        padding: 15px 64px;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+    .cancel {
+        margin-top: 24px;
+        margin-left: 115px;
+    }
+    .card {
+        padding-bottom: 32px;
+    }
+    .main {
+        background-image: url(./image/pattern-background-mobile.svg);
+    }
+}
